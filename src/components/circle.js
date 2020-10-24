@@ -1,6 +1,7 @@
-// import using require
+import Shape from "./shape";
 
-// declare class
-
-
-// export class using module.exports
+export default class Circle extends Shape {
+  calculateArea() {
+    console.log("calculateArea Method of circle class");
+  }
+}
