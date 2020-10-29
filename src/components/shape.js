@@ -1,7 +1,7 @@
-export default class Shape {
-  color;
+import React from "react";
 
-  constructor() {
+export default class Shape {
+  constructor(color) {
     this.color = "red";
   }
 
