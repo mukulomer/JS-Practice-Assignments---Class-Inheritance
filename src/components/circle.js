@@ -1,4 +1,4 @@
-import Shape from "./shape";
+var Shape = require("./Shape");
 
 class Circle extends Shape {
   calculateArea() {

@@ -1,4 +1,3 @@
-import React from "react";
 class Shape {
   constructor(color) {
     super(color);
