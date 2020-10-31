@@ -1,8 +1,8 @@
-var Shape = require("./Shape");
-
+var Shape = require("./shape");
+// declare class
 class Circle extends Shape {
   calculateArea() {
-    console.log("calculateArea Method of circle class");
+    console.log("calculate area of circle");
   }
 }
 module.exports = Circle;
