@@ -1,7 +1,7 @@
 import React from "react";
-
-export default class Shape {
+class Shape {
   constructor(color) {
+    super(color);
     this.color = "red";
   }
 
@@ -13,3 +13,4 @@ export default class Shape {
     console.log("calculateArea Method of shape class");
   }
 }
+module.exports = Shape;
